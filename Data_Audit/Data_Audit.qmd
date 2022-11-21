@@ -28,30 +28,48 @@ format:
 
 ## Declaration of Authorship {.unnumbered .unlisted}
 
-I, [insert your name], confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
+I, Xianlai Yin, confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
 
-['Sign' your name here]
+Xianlai Yin
 
-Date:
+Date: 21/11/2022
 
-Student Number: 
+Student Number: 22073407
 
 ## Who collected the data?
 
-An inline citation: As discussed on @insideairbnb, there are many...
-
-A parenthetical citation: There are many ways to research Airbnb [see, for example, @insideairbnb].
+By comparison, this dataset is highly similar to the dataset provided by Inside Airbnb (IA), and it can be assumed that the researchers of this project collected the data [@insideairbnb].
 
 ## Why did they collect it?
 
+The IA’s research aims to analyse the impact of Airbnb on urban communities to protect them from the negative effects of short-term rentals [@insideairbnb_2022], including gentrification and a reduction in rental housing resources [@wachsmuth2018airbnb]. Therefore, this dataset focuses more on collecting information on hosts to determine whether they are commercial operators, and on the availability of properties to determine the extent of their impact on the housing market.
+
 ## How was it collected?
+
+IA’s researchers scraped the data from the Airbnb website using techniques such as python and cleaned and collated it, which allows the dataset to contain a wide range of relevant information, almost all the information on the Airbnb listing pages is covered, and avoids the official embellishment of the data [@cox2016airbnb]. On the other hand, this does not allow access to detailed internal information, because some of Airbnb's data such as the exact location of the listing is anonymised.
 
 ## What useful information does it contain?
 
+This dataset contains a range of information about listings, including property details, host information, community and location information, listing availability, and listing reviews. The dataset provides host information and listing availability, which combined with community and location information can reflect the overall status and distribution of Airbnb's listings in the city, and analyse the various impacts they have on the city or community. In addition, the property details, listing availability and listing reviews could help people choose properties and help hosts adapt their strategies.
+
 ## To what extent is the data 'complete'?
+
+The data itself, which inevitably has many vacant values in the dataset, does not affect the overall data analysis. However, although this dataset is widely used in various studies, some scholars have questioned the validity and accuracy of the dataset, arguing that the python script for scraping data is outdated and that the scrape process may be interfered with by anti-scraping on the Airbnb website, so that the dataset may have problems such as missing and duplicate data [@alsudais2021incorrect].
+
+For the researcher's purposes, the data collection is mainly complete, and the dataset covers almost all the information on Airbnb's listing pages. However, if this is the only perspective it does not give a complete picture of Airbnb's operations in London, as it is only considered from the listing perspective (supply side). However, the picture of Airbnb's operations cannot be viewed without the perspective of the renter, and a user profile of the rental groups can provide a relatively complete picture of rental operations from the demand side.
 
 ## What kinds of analysis would this support?
 
+Based on the researcher's purpose of collecting this data, the impact of Airbnb on urban communities can be analysed. Firstly, the gentrification process of the city or community can be analysed by considering Airbnb's rental income as the potential income in the Rent Gap Model [@wachsmuth2018airbnb]. Secondly, by analysing the available information on Airbnb listings, the extent to which housing resources are wasted by using homes as short-term rentals can be estimated. Thirdly, based on the number of listings owned by the host and the acceptance rate, the analysis determines whether the host is a commercial operator, which is considered to have a more negative impact on the housing market [@Harris2018].
+
+The dataset can also support other analyses outside the data collectors’ research aims. From a host's perspective, the dataset can be analysed to understand the market situation to develop business strategies; from the perspective of the tenant, the dataset can be analysed to determine the strengths and weaknesses of different listings to choose the suitable one; from the perspective of governments and the planning authorities, the dataset can be used to analyse the spatial characteristics of cities as reflected by the distribution of Airbnb listings and the impact of Airbnb listings on urban development (e.g. the impact on the housing rental market), so that policies and plans can be adjusted to respond [@gurran2017tourists].
+
 ## Which of the analyses outlined above are ethical?
+
+Firstly, the ethical issue of data collection and use involves violating the right to privacy and informed consent [@crawford2015limits]. According to Airbnb's Terms of Service statement, users are not allowed to use any automated process to scrape data from the website [@stringam2021legal]. Using this dataset for research is an obvious violation of this clause. Also, the information was uploaded by many Airbnb users who did not permit to use the data for various analyses, and the research using the dataset is likely to invade their privacy. On the other hand, it is also argued that permission is not required to collect and analyse publicly available data [@stringam2021legal], the ethical boundaries are controversial in different regions and groups.
+
+Secondly, the ethical issue of the impact of the research [@kitchin2016ethics]. The analyses mentioned earlier are mostly related to urban society, and the results will inevitably directly or indirectly affect people in society. Suppose the government, having analysed the dataset, had made a policy to ban or restrict Airbnb's operations in the city to avoid its negative impact, to the detriment of the platform and the hosts, even though the dataset used in the research originated from them and was not permitted to be used. However, the policy was developed in the broader public interest so that residents could enjoy more reasonable rents and a better community atmosphere. This involves an ethical debate between the public interest and the interests of particular groups. But what if the government uses the data more for economic benefits than for the rights of citizens? Suppose the government uses the dataset to find that a particular area is popular with tourists and decides to invest in tourism in that area, leading to higher rents and living costs for the local community and the destruction of the social fabric of the community, albeit with higher tourism revenues, is this ethical?
+
+In summary, most of the above analyses using this dataset are ethically controversial. However, the data collection process did not collect private data, circumventing many ethical issues related to privacy. The ethical issues arising from the impact of the research involved ethical thinking at a societal level and were not confined to this dataset and analysis.
 
 ## References
